@@ -1,0 +1,80 @@
+body{
+    background-color: #151515;
+    background-image: url(https://desktop.github.com/images/star-b.svg),linear-gradient(#191c20, #151515 25%);
+    background-repeat: repeat-x;
+    background-position: center 0, 0 0, 0 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.section{
+    margin: 100px;
+     font-family: 'Ubuntu Condensed';
+     color: white;
+}
+.sec-box{
+    display: flex;
+    width: 100%;
+    margin: 38px 0 0 0;
+}
+form{
+    background: none;
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed';
+}
+
+form input{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 10px 0;
+    outline: none;
+}
+.form-box{
+    width: 64%;
+}
+form .your-mesg{
+   
+    width: 100%;
+    padding: 20px 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 10px 0;
+    outline: none;
+}
+form button{
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    margin: 20px 0 0 0 ;
+}
+.other-platforms{
+    display: flex;
+    flex-direction: column;
+}
+.other-platforms i{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+.other-platforms i a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu Condensed';
+    font-size: 17px;
+    margin: 0 0 0 10px;
+    
+}

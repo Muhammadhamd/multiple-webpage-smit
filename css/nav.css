@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    
+}
+nav{
+    width: 100%;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul{
+    display:flex;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 35px 20px 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px
+}
