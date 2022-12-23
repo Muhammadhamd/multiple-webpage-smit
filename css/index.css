@@ -1,0 +1,46 @@
+.background{
+        
+    background: rgba(0, 0, 0, 0.7) url(img/photo-1495781856580-b3c4e8d21bf9.jpg);
+background-size: cover;
+background-blend-mode: darken;
+filter: hue-rotate(45deg);
+height: 100vh;
+   
+}
+
+.section{
+    display: flex;
+    margin: 70px 10px 10px 100px;
+}
+.content{
+    color: white;
+    width: 70%;
+    font-family: "Ubuntu Condensed";
+}
+.content .name{
+    margin: 30px 0px 0px 0px;
+    color: #ccc;
+}
+.content .headline{
+    margin: 0px 0px 30px 0;
+    color: #c3b3f5;
+}
+.img-holder{
+    width: 30%;
+}
+.img-holder img{
+    border-radius: 50%;
+    width: 200px;
+}
+.whatsapp-div{
+    margin: 50px;
+}
+.whatsapp{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: none;
+    margin: 30px 0 0 50px;
+    padding: 10px 20px;
+}
