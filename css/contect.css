@@ -22,6 +22,8 @@ body{
     display: flex;
     width: 100%;
     margin: 38px 0 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 form{
     background: none;
@@ -48,6 +50,8 @@ form input{
 }
 .form-box{
     width: 64%;
+    display: flex;
+    justify-content: center;
 }
 form .your-mesg{
    
@@ -98,4 +102,23 @@ form button{
     font-family: "Helvetica Neue",Helvetica;
     color: #ccc;
 }
+@media screen and (max-width:900px) {
+    .section{
+        margin: 100px 20px;
+    }
+    .form-box form{
+        width: 370px;
+    }
+}
+@media screen and (max-width:710px) {
+    .form-box form{
+        width: 320px;
 
+    }
+    .other-platforms i{
+        font-size: 37px;
+    }
+    .other-platforms i a{
+        font-size: 15px;
+    }
+}
