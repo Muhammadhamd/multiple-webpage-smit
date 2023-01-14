@@ -111,6 +111,10 @@ form button{
     }
 }
 @media screen and (max-width:710px) {
+    body{
+    background-image:linear-gradient(#2d2f3a, #151515 5%);
+
+    }
     .form-box form{
         width: 320px;
 
