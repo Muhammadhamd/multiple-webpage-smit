@@ -4,6 +4,14 @@ body{
     background-repeat: repeat-x;
     background-position: center 0, 0 0, 0 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 .section{
     margin: 100px;
@@ -27,13 +35,14 @@ form{
 }
 
 form input{
-    width: 100%;
     padding: 20px 0;
     font-size: 20px;
     background: none;
     border: none;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 2px solid crimson;
+    width: 100%;
+    font-family: "Helvetica Neue",Helvetica;
+    color: #ccc;
     margin: 10px 0;
     outline: none;
 }
@@ -42,12 +51,14 @@ form input{
 }
 form .your-mesg{
    
-    width: 100%;
     padding: 20px 0;
     font-size: 20px;
+    background: none;
     border: none;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 2px solid crimson;
+    width: 100%;
+    font-family: "Helvetica Neue",Helvetica;
+    color: #ccc;
     margin: 10px 0;
     outline: none;
 }
@@ -78,3 +89,15 @@ form button{
     margin: 0 0 0 10px;
     
 }
+.section center{
+    
+}
+.section center h1{
+    border-bottom: 4px solid crimson;
+    width: 250px;
+    font-size: 38px;
+    padding: 0px 0 5px 0px;
+    font-family: "Helvetica Neue",Helvetica;
+    color: #ccc;
+}
+

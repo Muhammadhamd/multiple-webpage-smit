@@ -12,8 +12,6 @@ nav{
     background: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-
 }
 nav ul{
     display:flex;
@@ -28,3 +26,42 @@ nav ul li a{
     color: white;
     font-size: 25px
 }
+.pf-icon{
+    width: 38%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0px 20px;
+    font-family: "Ubuntu Condensed";
+}
+.pf-icon a{
+    display: flex;
+    align-items: center;
+}
+.pf-icon a img{
+    width: 50px;
+    border-radius:50%;
+    margin: 0px 5px 0 0px;
+}
+.pf-icon a h3{
+    color: #d6cece;
+    font-size: 17px;
+}
+
+@media screen and (max-width:1230px) {
+ .pf-icon{
+    width:36%;
+ }   
+}
+@media screen and (max-width:950px) {
+   
+    nav ul li{
+        margin: 35px 15px 0 15px;
+    }
+   }
+   @media screen and (max-width:450px) { 
+
+    nav ul {
+        margin: 0 0 0 25px;
+    }
+   }
