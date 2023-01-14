@@ -64,3 +64,10 @@ body{
     padding: 0 0 10px 0 ;
     font-family:"Ubuntu" ;
 }
+
+@media screen and (max-width:510px) {
+    .sec .blog{
+
+        width: 90%;
+    }
+}
