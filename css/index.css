@@ -90,6 +90,7 @@ height: 100vh;
     }
     .img-holder img{
         width: 100px;
+        border-radius: 50%;
     }
 .section{
     margin: 70px 20px 10px 20px;
